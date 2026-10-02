@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-tint":"#425e91","tertiary-fixed-dim":"#a9c7ff","on-primary":"#ffffff","inverse-on-surface":"#eaf1ff","surface-container-lowest":"#ffffff","on-secondary":"#ffffff","on-background":"#121c2a","secondary":"#785900","surface-container-high":"#dee9fc","surface-container-low":"#eff4ff","background":"#f8f9ff","on-secondary-fixed":"#251a00","tertiary":"#00254f","secondary-fixed":"#ffdf9d","secondary-fixed-dim":"#f9bd14","on-error-container":"#93000a","on-secondary-container":"#6c5000","primary-fixed-dim":"#acc7ff","surface-container":"#e6eeff","on-primary-fixed-variant":"#294678","secondary-container":"#fcc019","on-secondary-fixed-variant":"#5b4300","on-tertiary-fixed-variant":"#00468c","on-surface-variant":"#44474f","primary-container":"#1b3a6b","error-container":"#ffdad6","on-primary-fixed":"#001a40","surface-dim":"#d0dbed","on-error":"#ffffff","surface":"#f8f9ff","error":"#ba1a1a","primary-fixed":"#d7e2ff","on-surface":"#121c2a","tertiary-fixed":"#d6e3ff","outline":"#747780","inverse-primary":"#acc7ff","primary":"#002452","tertiary-container":"#003a76","inverse-surface":"#27313f","on-tertiary-container":"#77a6f3","on-tertiary-fixed":"#001b3d","surface-bright":"#f8f9ff","outline-variant":"#c4c6d0","on-tertiary":"#ffffff","surface-container-highest":"#d9e3f6","on-primary-container":"#89a5dd","surface-variant":"#d9e3f6"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"gutter":"1.5rem","space-sm":"0.5rem","space-xl":"2.5rem","space-md":"1rem","gutter-sm":"1rem","space-lg":"1.5rem","space-xs":"0.25rem","margin-sm":"1rem","margin":"2rem"},fontFamily:{"counter-display":["Outfit"],"headline-sm":["Outfit"],"headline-xl":["Outfit"],"headline-xl-mobile":["Outfit"],"body-lg":["Inter"],"body-md":["Inter"],"display-lg":["Outfit"],"label-md":["Inter"],"headline-lg":["Outfit"],"headline-md":["Outfit"],"display-lg-mobile":["Outfit"],"label-lg":["Inter"],"body-sm":["Inter"]},fontSize:{"counter-display":["48px",{lineHeight:"52px",letterSpacing:"-0.02em",fontWeight:"800"}],"headline-sm":["20px",{lineHeight:"28px",fontWeight:"600"}],"headline-xl":["40px",{lineHeight:"48px",letterSpacing:"-0.015em",fontWeight:"700"}],"headline-xl-mobile":["28px",{lineHeight:"36px",letterSpacing:"-0.01em",fontWeight:"700"}],"body-lg":["18px",{lineHeight:"28px",fontWeight:"400"}],"body-md":["16px",{lineHeight:"24px",fontWeight:"400"}],"display-lg":["56px",{lineHeight:"64px",letterSpacing:"-0.02em",fontWeight:"700"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.02em",fontWeight:"600"}],"headline-lg":["32px",{lineHeight:"40px",letterSpacing:"-0.01em",fontWeight:"600"}],"headline-md":["24px",{lineHeight:"32px",fontWeight:"600"}],"display-lg-mobile":["36px",{lineHeight:"44px",letterSpacing:"-0.02em",fontWeight:"700"}],"label-lg":["14px",{lineHeight:"20px",letterSpacing:"0.01em",fontWeight:"600"}],"body-sm":["14px",{lineHeight:"20px",fontWeight:"400"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 w-full z-50 bg-surface-container-lowest/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(27,58,107,0.06)]"><div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-4"><div class="flex items-center gap-3"><img alt="Colégio Horizonte Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Vr1IgWe8faGPJyVEuYrLzHnmttp2qIQ1rrCoIi3LRPcsd47Tu-6QbXcZ6a3gq9RtTq309dCMsvJ32snUzwYj4uj7S2KiyV8LyNTi0G4V6hq-AvGXyQAyl46MLfa85wQY792JTnIsbXBtTqlO610MZhcjM8MuaT3r_3IcxrG3b4_TnjiAYtuThKUrIUbx9Y0hJfp0xMbMXJ5FmdOmXw3beqS-FeabdEYSFLEiXJTtmYqBvndtmNouTinGFl"/><span class="font-headline-md text-headline-sm lg:text-headline-md font-bold tracking-tight text-primary">Colégio Horizonte</span></div><nav class="hidden xl:flex items-center gap-6" data-active-classes="text-primary font-bold"><a aria-current="page" class="transition-colors duration-150 text-primary font-bold" data-path="inicio" href="#inicio">Início</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors duration-150" data-path="sobre" href="#sobre">Sobre</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors duration-150" data-path="segmentos" href="#segmentos">Segmentos</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors duration-150" data-path="numeros" href="#numeros">Números</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors duration-150" data-path="noticias" href="#noticias">Notícias</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors duration-150" data-path="depoimentos" href="#depoimentos">Depoimentos</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-primary transition-colors duration-150" data-path="contato" href="#contato">Contato</a></nav><div class="flex items-center gap-3 sm:gap-4"><a class="hidden sm:inline-flex items-center justify-center h-12 px-space-lg rounded-xl bg-secondary-container hover:bg-secondary-fixed-dim text-on-secondary-fixed font-label-lg text-label-lg font-bold shadow-[0_4px_12px_rgba(252,192,25,0.25)] hover:-translate-y-0.5 transition-all duration-200" data-path="matriculas" href="#matriculas">Matrículas Abertas</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shadow-sm shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div><button aria-label="Abrir Menu" class="xl:hidden p-2 rounded-xl text-primary hover:bg-surface-container transition-colors" type="button"><span class="material-symbols-outlined text-[28px]">menu</span></button></div></div></header><main class="w-full pt-20 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- 1. HERO SECTION -->
+<section class="relative w-full -mt-20 pt-20 overflow-hidden bg-primary text-on-primary" id="inicio">
+<!-- Image background layer with scrim -->
+<div class="absolute inset-0 z-0">
+<img alt="Alunos do Colégio Horizonte sorridentes em sala de aula contemporânea com livros e cadernos abertos" class="w-full h-full object-cover object-center opacity-30 transform scale-105 transition-transform duration-1000 ease-out" id="heroImage" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0JjOAqDk3vH18EoIAshLy0tLyTdHGH42xl-S6ObwV8mKn1zRer2xcIimxZSXzzEYb-uuDWMOjNgcc9t5wCjih6U0sbKsbH73g7aPUyvfYZHYSxHkQq1KftJm8DX2rvzA8lKSuyVk19W64Aogp7eF46vaw6Jv-cXq-jfISB15HuZ4cleG3FP8S7_xMYKL9q7WCrzfx20qCfzuXryMsNa2fPelBflOjtmbhWjoAuRhplgHkz_yu0tmaDg"/>
+<div class="absolute inset-0 bg-gradient-to-r from-primary via-primary/90 to-primary/60 mix-blend-multiply"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary via-transparent to-primary/40"></div>
+</div>
+<!-- Hero Content Container -->
+<div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pt-24 pb-28 md:pt-32 md:pb-36 flex flex-col justify-center min-h-[921px]">
+<div class="max-w-3xl space-y-6">
+<!-- Seasonal Badge -->
+<div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-secondary-container/20 backdrop-blur-md border border-secondary-container/30 text-secondary-fixed shadow-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary-container animate-pulse"></span>
+<span class="font-label-md text-label-md uppercase tracking-wider font-semibold">✨ Matrículas Abertas para o Ano Letivo 2025/2026</span>
+</div>
+<!-- Headline -->
+<h1 class="font-display-lg text-display-lg font-bold tracking-tight text-on-primary leading-tight">
+          Educando para o futuro com <span class="text-secondary-container">afeto, valores</span> e excelência.
+        </h1>
+<!-- Subtitle -->
+<p class="font-body-lg text-body-lg text-primary-fixed-dim leading-relaxed max-w-2xl">
+          No Colégio Horizonte, cada aluno é estimulado a desenvolver seu potencial acadêmico, socioemocional e criativo em um ecossistema inspirador, seguro e bilíngue.
+        </p>
+<!-- CTA Buttons -->
+<div class="pt-4 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+<a class="inline-flex items-center justify-center h-14 px-8 rounded-xl bg-secondary-container text-on-secondary-fixed font-label-lg text-label-lg font-bold shadow-lg hover:bg-secondary-fixed-dim hover:-translate-y-1 transition-all duration-300" href="#sobre">
+            Conheça a escola
+            <span class="material-symbols-outlined ml-2 text-[20px]">arrow_forward</span>
+</a>
+<a class="inline-flex items-center justify-center h-14 px-8 rounded-xl border-2 border-on-primary/60 text-on-primary hover:bg-on-primary/10 hover:border-on-primary hover:-translate-y-1 transition-all duration-300 font-label-lg text-label-lg" href="#contato">
+            Fale conosco
+          </a>
+</div>
+<!-- Feature Pills -->
+<div class="pt-8 flex flex-wrap items-center gap-3">
+<span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg bg-primary-container/80 text-primary-fixed text-label-md font-label-md backdrop-blur-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary-container">language</span>
+            Educação Bilíngue Imersiva
+          </span>
+<span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg bg-primary-container/80 text-primary-fixed text-label-md font-label-md backdrop-blur-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary-container">precision_manufacturing</span>
+            Laboratórios Maker &amp; STEAM
+          </span>
+<span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg bg-primary-container/80 text-primary-fixed text-label-md font-label-md backdrop-blur-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary-container">favorite</span>
+            Formação Integral Humanista
+          </span>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. SEÇÃO 'SOBRE A ESCOLA' -->
+<section class="w-full bg-surface-container-lowest py-24 scroll-mt-20" id="sobre">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<!-- Section Header -->
+<div class="max-w-3xl mb-16">
+<span class="font-label-md text-label-md uppercase tracking-widest text-primary-container font-bold px-3 py-1 bg-surface-container-high rounded-md inline-block mb-3">Nossa Identidade</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight mb-4">
+          Uma trajetória de amor pelo conhecimento e compromisso com o futuro.
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+          Fundado sobre o alicerce do respeito à singularidade humana e do rigor acadêmico, o Colégio Horizonte combina tradição pedagógica com vanguarda metodológica. Mais do que transmitir conteúdos curriculares, nosso propósito é formar indivíduos autônomos, empáticos e preparados para serem autores das próprias histórias.
+        </p>
+</div>
+<!-- Values Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="p-8 rounded-2xl bg-surface-container-low shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="w-14 h-14 rounded-2xl bg-primary-container text-on-primary flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
+<span class="material-symbols-outlined text-[30px] text-secondary-container">school</span>
+</div>
+<h3 class="font-headline-md text-headline-md font-bold text-primary mb-3">Excelência Acadêmica</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Metodologias ativas com foco no raciocínio crítico, corpo docente altamente qualificado composto por mestres e doutores, com resultados comprovados nos principais vestibulares do país.
+            </p>
+</div>
+<div class="mt-6 pt-4 border-t border-surface-container flex items-center gap-2 text-primary font-label-lg text-label-lg font-semibold">
+<span>Resultados comprovados</span>
+<span class="material-symbols-outlined text-[18px]">verified</span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="p-8 rounded-2xl bg-surface-container-low shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="w-14 h-14 rounded-2xl bg-primary-container text-on-primary flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
+<span class="material-symbols-outlined text-[30px] text-secondary-container">volunteer_activism</span>
+</div>
+<h3 class="font-headline-md text-headline-md font-bold text-primary mb-3">Formação Humana</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Desenvolvimento socioemocional integral, fortalecimento da empatia, ética cidadã e suporte psicológico contínuo adaptado a cada fase da infância e da juventude.
+            </p>
+</div>
+<div class="mt-6 pt-4 border-t border-surface-container flex items-center gap-2 text-primary font-label-lg text-label-lg font-semibold">
+<span>Acolhimento contínuo</span>
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="p-8 rounded-2xl bg-surface-container-low shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="w-14 h-14 rounded-2xl bg-primary-container text-on-primary flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
+<span class="material-symbols-outlined text-[30px] text-secondary-container">lightbulb</span>
+</div>
+<h3 class="font-headline-md text-headline-md font-bold text-primary mb-3">Inovação &amp; Tecnologia</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Cultura maker aplicada, robótica educacional, conscientização ambiental e plataformas digitais interativas que preparam com profundidade para as transformações do século XXI.
+            </p>
+</div>
+<div class="mt-6 pt-4 border-t border-surface-container flex items-center gap-2 text-primary font-label-lg text-label-lg font-semibold">
+<span>Visão de futuro</span>
+<span class="material-symbols-outlined text-[18px]">rocket_launch</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. SEÇÃO 'NOSSOS SEGMENTOS' -->
+<section class="w-full bg-surface-container py-24 scroll-mt-20" id="segmentos">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<!-- Section Header -->
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="font-label-md text-label-md uppercase tracking-widest text-primary font-bold px-3 py-1 bg-surface-container-highest rounded-md inline-block mb-3">Ciclos de Aprendizagem</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight mb-4">
+          Educação continuada do maternal ao ensino médio
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Construímos um caminho pedagógico consistente, respeitando as etapas de desenvolvimento cognitivo, motor e emocional dos estudantes.
+        </p>
+</div>
+<!-- Segment Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Segment 1 -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-md text-label-md text-secondary font-bold bg-secondary-fixed/50 px-2.5 py-1 rounded-md">1 a 5 anos</span>
+<span class="material-symbols-outlined text-primary-container text-[24px]">child_care</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-primary mb-2">Educação Infantil</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              Brincar heurístico, estímulo à curiosidade natural, desenvolvimento psicomotor e ambiente afetuoso e acolhedor.
+            </p>
+<ul class="space-y-2 mb-6 font-body-sm text-body-sm text-on-surface">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+                Espaços de psicomotricidade
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+                Iniciação à segunda língua
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+                Alimentação balanceada
+              </li>
+</ul>
+</div>
+<a class="inline-flex items-center justify-between w-full pt-4 border-t border-surface-container font-label-lg text-label-lg font-semibold text-primary hover:text-primary-container transition-colors" href="#contato">
+<span>Saiba mais</span>
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</a>
+</div>
+<!-- Segment 2 -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-md text-label-md text-secondary font-bold bg-secondary-fixed/50 px-2.5 py-1 rounded-md">1º ao 5º ano</span>
+<span class="material-symbols-outlined text-primary-container text-[24px]">menu_book</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-primary mb-2">Fundamental I</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              Alfabetização sólida, pensamento lógico-matemático, vivências artísticas e projetos interdisciplinares estimulantes.
+            </p>
+<ul class="space-y-2 mb-6 font-body-sm text-body-sm text-on-surface">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+                Laboratório de letramento
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+                Raciocínio lógico ativo
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+                Atividades esportivas e artes
+              </li>
+</ul>
+</div>
+<a class="inline-flex items-center justify-between w-full pt-4 border-t border-surface-container font-label-lg text-label-lg font-semibold text-primary hover:text-primary-container transition-colors" href="#contato">
+<span>Saiba mais</span>
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</a>
+</div>
+<!-- Segment 3 -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-md text-label-md text-secondary font-bold bg-secondary-fixed/50 px-2.5 py-1 rounded-md">6º ao 9º ano</span>
+<span class="material-symbols-outlined text-primary-container text-[24px]">psychology</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-primary mb-2">Fundamental II</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              Autonomia de estudos, iniciação científica, liderança, tecnologia e consolidação das habilidades analíticas.
+            </p>
+<ul class="space-y-2 mb-6 font-body-sm text-body-sm text-on-surface">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+                Iniciação científica prática
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+                Programação e cultura maker
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+                Debates e oratória
+              </li>
+</ul>
+</div>
+<a class="inline-flex items-center justify-between w-full pt-4 border-t border-surface-container font-label-lg text-label-lg font-semibold text-primary hover:text-primary-container transition-colors" href="#contato">
+<span>Saiba mais</span>
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</a>
+</div>
+<!-- Segment 4 -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between border-2 border-secondary-container/40">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-label-md text-label-md text-on-secondary-fixed font-bold bg-secondary-container px-2.5 py-1 rounded-md">1ª à 3ª série</span>
+<span class="material-symbols-outlined text-primary-container text-[24px]">military_tech</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-primary mb-2">Ensino Médio</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              Itinerários formativos modernos, orientação vocacional personalizada, simulados e foco total no ENEM e vestibulares.
+            </p>
+<ul class="space-y-2 mb-6 font-body-sm text-body-sm text-on-surface">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+                Simulados tri-nacionais
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+                Mentoria de carreira e vida
+              </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+                Laboratórios de alta precisão
+              </li>
+</ul>
+</div>
+<a class="inline-flex items-center justify-between w-full pt-4 border-t border-surface-container font-label-lg text-label-lg font-semibold text-primary hover:text-primary-container transition-colors" href="#contato">
+<span>Saiba mais</span>
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. SEÇÃO 'NOSSOS NÚMEROS' -->
+<section class="w-full bg-primary text-on-primary py-24 scroll-mt-20 relative overflow-hidden" id="numeros">
+<!-- Decorative subtle ambient glow -->
+<div class="absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-secondary-container/10 blur-3xl pointer-events-none"></div>
+<div class="absolute -left-20 -top-20 w-96 h-96 rounded-full bg-primary-container/40 blur-3xl pointer-events-none"></div>
+<div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
+<!-- Section Header -->
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="font-label-md text-label-md uppercase tracking-widest text-secondary-container font-bold px-3 py-1 bg-primary-container rounded-md inline-block mb-3">Impacto e Confiança</span>
+<h2 class="font-headline-xl text-headline-xl text-on-primary font-bold tracking-tight">
+          Resultados que inspiram gerações
+        </h2>
+</div>
+<!-- Stats Grid -->
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+<!-- Metric 1 -->
+<div class="flex flex-col items-center text-center p-6 rounded-2xl bg-primary-container/50 border border-primary-container">
+<span class="font-counter-display text-counter-display font-extrabold text-secondary-container tracking-tight mb-2">1.200+</span>
+<p class="font-label-lg text-label-lg font-semibold text-primary-fixed">Alunos Apaixonados</p>
+<span class="font-body-sm text-body-sm text-primary-fixed-dim mt-1">desenvolvendo seu potencial diariamente</span>
+</div>
+<!-- Metric 2 -->
+<div class="flex flex-col items-center text-center p-6 rounded-2xl bg-primary-container/50 border border-primary-container">
+<span class="font-counter-display text-counter-display font-extrabold text-secondary-container tracking-tight mb-2">80+</span>
+<p class="font-label-lg text-label-lg font-semibold text-primary-fixed">Educadores e Mestres</p>
+<span class="font-body-sm text-body-sm text-primary-fixed-dim mt-1">dedicados à formação de excelência</span>
+</div>
+<!-- Metric 3 -->
+<div class="flex flex-col items-center text-center p-6 rounded-2xl bg-primary-container/50 border border-primary-container">
+<span class="font-counter-display text-counter-display font-extrabold text-secondary-container tracking-tight mb-2">25</span>
+<p class="font-label-lg text-label-lg font-semibold text-primary-fixed">Anos de Tradição</p>
+<span class="font-body-sm text-body-sm text-primary-fixed-dim mt-1">aliados à inovação pedagógica contínua</span>
+</div>
+<!-- Metric 4 -->
+<div class="flex flex-col items-center text-center p-6 rounded-2xl bg-primary-container/50 border border-primary-container">
+<span class="font-counter-display text-counter-display font-extrabold text-secondary-container tracking-tight mb-2">98%</span>
+<p class="font-label-lg text-label-lg font-semibold text-primary-fixed">Aprovação Universitária</p>
+<span class="font-body-sm text-body-sm text-primary-fixed-dim mt-1">nas principais instituições públicas e privadas</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. SEÇÃO 'NOTÍCIAS E EVENTOS' -->
+<section class="w-full bg-surface-container-lowest py-24 scroll-mt-20" id="noticias">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+<div>
+<span class="font-label-md text-label-md uppercase tracking-widest text-primary font-bold px-3 py-1 bg-surface-container-high rounded-md inline-block mb-3">Vida Escolar</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight">
+            Fique por dentro das novidades do Horizonte
+          </h2>
+</div>
+<a class="inline-flex items-center text-primary hover:text-primary-container font-label-lg text-label-lg font-semibold transition-colors" href="#contato">
+<span>Ver calendário completo</span>
+<span class="material-symbols-outlined ml-1 text-[20px]">arrow_forward</span>
+</a>
+</div>
+<!-- News Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Article 1 -->
+<article class="flex flex-col bg-surface rounded-2xl overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
+<div class="relative h-48 w-full overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Estudantes apresentando protótipos de robótica e maquetes sustentáveis em uma feira de ciências iluminada, com professores avaliando e aplaudindo com orgulho" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMf_PZGyY2DwgTNWROFU1u1eO5KzMwwieYxsk6x__XX0tdgbZsyzqqon3ruFNRyOsCiNNzqvZt4cVj9QWs9R9Aa6KDA1x58xrJtKbg7THljI3BXxMHkMOWXKc3drd6nt-AdInwEc4oDlVxGJ2qr-nAlzLxCJBlEbw6iNndNFpl5sN_GjecT6Gl0DuElORdj67QEjfGnMGNLa0xxT5X2p9Kin5mNuvDxh9o1OmVkUt7bPvNazhs-b7dYw"/>
+<span class="absolute top-4 left-4 bg-primary text-on-primary font-label-md text-label-md px-3 py-1 rounded-md font-medium shadow-sm">Eventos</span>
+</div>
+<div class="p-6 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 text-on-surface-variant font-label-md text-label-md mb-2">
+<span class="material-symbols-outlined text-[16px]">calendar_today</span>
+<span>15 de Outubro, 2025</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-primary mb-3">
+                Feira de Ciências &amp; Inovação 2025: Alunos apresentam projetos de sustentabilidade urbana
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
+                Com foco nos Objetivos de Desenvolvimento Sustentável, turmas do Fundamental II e Ensino Médio expõem maquetes automatizadas e soluções de energia limpa.
+              </p>
+</div>
+<a class="inline-flex items-center text-primary font-label-lg text-label-lg font-semibold mt-4 hover:text-primary-container transition-colors" href="#noticias">
+              Ler notícia completa
+              <span class="material-symbols-outlined ml-1 text-[16px]">chevron_right</span>
+</a>
+</div>
+</article>
+<!-- Article 2 -->
+<article class="flex flex-col bg-surface rounded-2xl overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
+<div class="relative h-48 w-full overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Alunos no palco do teatro do colégio encenando uma peça artística colorida com iluminação cênica acolhedora em tons de azul e dourado" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDiCJGpw4H6Yu5zNKwMmT9FHNlE52kbklfSfAgnky4OVUd4QaH2hBaQ3ujYI_WgKtcxtsg_7AMtQlHu062kD7WPnIfwMC24I3XGUYX8OQfZvmmApiffFKRBPf2Isr_c2lfELK3pktOyaG0ScW1YMf7aIjkXO-7hHahlCp1mdZUTD72D-RxjAru8aIiifaLR4mzILjlrUbQ9t0PJ89hVhUOrBFLIsjARUr37t-m3MgNqz0sNua3f_ZzJlQ"/>
+<span class="absolute top-4 left-4 bg-secondary text-on-secondary font-label-md text-label-md px-3 py-1 rounded-md font-medium shadow-sm">Cultura</span>
+</div>
+<div class="p-6 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 text-on-surface-variant font-label-md text-label-md mb-2">
+<span class="material-symbols-outlined text-[16px]">calendar_today</span>
+<span>08 de Outubro, 2025</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-primary mb-3">
+                Festival de Arte e Cultura: Criatividade e expressão nos palcos do nosso auditório
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
+                Uma noite inesquecível de teatro, exposições plásticas e apresentações musicais orquestradas pelos nossos estudantes de todos os segmentos.
+              </p>
+</div>
+<a class="inline-flex items-center text-primary font-label-lg text-label-lg font-semibold mt-4 hover:text-primary-container transition-colors" href="#noticias">
+              Ler notícia completa
+              <span class="material-symbols-outlined ml-1 text-[16px]">chevron_right</span>
+</a>
+</div>
+</article>
+<!-- Article 3 -->
+<article class="flex flex-col bg-surface rounded-2xl overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
+<div class="relative h-48 w-full overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Estudante concentrado preenchendo prova acadêmica com caneta sobre mesa clara de biblioteca moderna, com medalhas e diplomas ao fundo com luz natural suave" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAo7A_aJrbSydTov2pz-pYMMpqM9gAAkZ0UuFGN-orUmnhLUrtl8Xxj7sk1e2JyGQfdc2_zd7x7A82_NgDgL_teSUNmnP6lkth2pyN0aZ2sYW8aa3xYOq5IikY842hEBtv_3e_nL63swx1FYYb_y19vAYP9lWqlwQiy5pF7X3MTSkdxVCruDus2t1a-rtOjeIqjXX-YeZ8gsLxFBOX-QHKcnBI9qQ1qSe48JDu_iyzQsIvY1rrpx3ZWGw"/>
+<span class="absolute top-4 left-4 bg-tertiary-container text-on-primary font-label-md text-label-md px-3 py-1 rounded-md font-medium shadow-sm">Institucional</span>
+</div>
+<div class="p-6 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 text-on-surface-variant font-label-md text-label-md mb-2">
+<span class="material-symbols-outlined text-[16px]">calendar_today</span>
+<span>28 de Setembro, 2025</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-primary mb-3">
+                Abertura das Inscrições para o Concurso de Bolsas de Estudo de Mérito
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
+                Oportunidade para novos talentos ingressarem no Colégio Horizonte com bolsas parciais e integrais para os Ensinos Fundamental II e Médio.
+              </p>
+</div>
+<a class="inline-flex items-center text-primary font-label-lg text-label-lg font-semibold mt-4 hover:text-primary-container transition-colors" href="#noticias">
+              Ler notícia completa
+              <span class="material-symbols-outlined ml-1 text-[16px]">chevron_right</span>
+</a>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- 6. SEÇÃO 'DEPOIMENTOS' -->
+<section class="w-full bg-surface-container py-24 scroll-mt-20" id="depoimentos">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<!-- Section Header -->
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="font-label-md text-label-md uppercase tracking-widest text-primary font-bold px-3 py-1 bg-surface-container-highest rounded-md inline-block mb-3">Comunidade Horizonte</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight mb-4">
+          O que as famílias e alunos dizem sobre nós
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Histórias reais de acolhimento, desenvolvimento e conquistas compartilhadas com nossa comunidade educacional.
+        </p>
+</div>
+<!-- Testimonial Slider / Container -->
+<div class="relative">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8" id="testimonialTrack">
+<!-- Testimonial 1 -->
+<div class="bg-surface-container-lowest rounded-2xl p-8 shadow-sm flex flex-col justify-between">
+<div>
+<!-- Stars -->
+<div class="flex items-center gap-1 text-secondary-container mb-4">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant italic leading-relaxed mb-6">
+                “A evolução dos meus filhos tanto na parte acadêmica quanto na maturidade emocional nos dá a certeza de que fizemos a melhor escolha.”
+              </p>
+</div>
+<div class="flex items-center gap-4 pt-4 border-t border-surface-container">
+<div class="w-12 h-12 rounded-full bg-surface-container-high text-primary flex items-center justify-center font-bold">
+                MV
+              </div>
+<div>
+<h4 class="font-headline-sm text-headline-sm font-bold text-primary">Dra. Mariana Vasconcellos</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Mãe de alunos do 4º e 8º ano</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="bg-surface-container-lowest rounded-2xl p-8 shadow-sm flex flex-col justify-between">
+<div>
+<!-- Stars -->
+<div class="flex items-center gap-1 text-secondary-container mb-4">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant italic leading-relaxed mb-6">
+                “O apoio da equipe pedagógica e a infraestrutura de laboratórios e esportes são incomparáveis. Uma escola viva e acolhedora.”
+              </p>
+</div>
+<div class="flex items-center gap-4 pt-4 border-t border-surface-container">
+<div class="w-12 h-12 rounded-full bg-surface-container-high text-primary flex items-center justify-center font-bold">
+                CR
+              </div>
+<div>
+<h4 class="font-headline-sm text-headline-sm font-bold text-primary">Carlos Eduardo Rocha</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pai de aluna do Ensino Médio</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 3 -->
+<div class="bg-surface-container-lowest rounded-2xl p-8 shadow-sm flex flex-col justify-between">
+<div>
+<!-- Stars -->
+<div class="flex items-center gap-1 text-secondary-container mb-4">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant italic leading-relaxed mb-6">
+                “O Colégio Horizonte me ensinou a ter autonomia, disciplina e paixão por aprender. Sempre serei grata aos professores!”
+              </p>
+</div>
+<div class="flex items-center gap-4 pt-4 border-t border-surface-container">
+<div class="w-12 h-12 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center font-bold">
+                BL
+              </div>
+<div>
+<h4 class="font-headline-sm text-headline-sm font-bold text-primary">Beatriz Lima</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Aprovada em Medicina na USP</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Carousel navigation buttons & indicator -->
+<div class="flex items-center justify-center gap-4 mt-12">
+<button aria-label="Depoimento Anterior" class="w-10 h-10 rounded-full bg-surface-container-lowest text-primary shadow-sm hover:bg-surface-container-high transition-colors flex items-center justify-center" type="button">
+<span class="material-symbols-outlined text-[20px]">chevron_left</span>
+</button>
+<div class="flex items-center gap-2">
+<span class="w-6 h-2 rounded-full bg-primary"></span>
+<span class="w-2 h-2 rounded-full bg-surface-container-highest"></span>
+<span class="w-2 h-2 rounded-full bg-surface-container-highest"></span>
+</div>
+<button aria-label="Próximo Depoimento" class="w-10 h-10 rounded-full bg-surface-container-lowest text-primary shadow-sm hover:bg-surface-container-high transition-colors flex items-center justify-center" type="button">
+<span class="material-symbols-outlined text-[20px]">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. SEÇÃO 'CONTATO & LOCALIZAÇÃO' -->
+<section class="w-full bg-surface-container-lowest py-24 scroll-mt-20" id="contato">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<!-- Section Header -->
+<div class="max-w-3xl mb-16">
+<span class="font-label-md text-label-md uppercase tracking-widest text-primary font-bold px-3 py-1 bg-surface-container-high rounded-md inline-block mb-3">Fale Conosco</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight mb-4">
+          Venha tomar um café e conhecer nosso campus
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Estamos de portas abertas para apresentar pessoalmente nossa metodologia, infraestrutura de ponta e acolher todas as dúvidas da sua família.
+        </p>
+</div>
+<!-- Split Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- Left: Form -->
+<div class="lg:col-span-7 bg-surface p-8 sm:p-10 rounded-2xl shadow-sm">
+<h3 class="font-headline-md text-headline-md font-bold text-primary mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[24px]">event_available</span>
+            Agendar Visita Pedagógica
+          </h3>
+<form class="space-y-5" id="visitaForm" onsubmit="event.preventDefault(); alert('Obrigado! Sua solicitação de visita foi recebida. Entraremos em contato em até 24 horas.');">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-semibold mb-1.5" for="respName">Nome do Responsável *</label>
+<input class="w-full h-12 px-4 rounded-xl bg-surface-container-lowest text-on-surface placeholder:text-outline outline-none focus:ring-2 focus:ring-primary transition-all font-body-sm text-body-sm shadow-sm" id="respName" placeholder="Ex.: Ana Cristina Silva" required="" type="text"/>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-semibold mb-1.5" for="childInfo">Nome e Idade do Aluno *</label>
+<input class="w-full h-12 px-4 rounded-xl bg-surface-container-lowest text-on-surface placeholder:text-outline outline-none focus:ring-2 focus:ring-primary transition-all font-body-sm text-body-sm shadow-sm" id="childInfo" placeholder="Ex.: Lucas, 7 anos" required="" type="text"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-semibold mb-1.5" for="segmentSelect">Segmento de Interesse *</label>
+<select class="w-full h-12 px-4 rounded-xl bg-surface-container-lowest text-on-surface outline-none focus:ring-2 focus:ring-primary transition-all font-body-sm text-body-sm shadow-sm cursor-pointer" id="segmentSelect" required="">
+<option disabled="" selected="" value="">Selecione um ciclo</option>
+<option value="infantil">Educação Infantil (1 a 5 anos)</option>
+<option value="fundamental1">Ensino Fundamental I (1º ao 5º ano)</option>
+<option value="fundamental2">Ensino Fundamental II (6º ao 9º ano)</option>
+<option value="medio">Ensino Médio (1ª à 3ª série)</option>
+</select>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-semibold mb-1.5" for="phone">Telefone / WhatsApp *</label>
+<input class="w-full h-12 px-4 rounded-xl bg-surface-container-lowest text-on-surface placeholder:text-outline outline-none focus:ring-2 focus:ring-primary transition-all font-body-sm text-body-sm shadow-sm" id="phone" placeholder="(11) 99999-9999" required="" type="tel"/>
+</div>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-semibold mb-1.5" for="email">E-mail para Contato *</label>
+<input class="w-full h-12 px-4 rounded-xl bg-surface-container-lowest text-on-surface placeholder:text-outline outline-none focus:ring-2 focus:ring-primary transition-all font-body-sm text-body-sm shadow-sm" id="email" placeholder="seu.email@exemplo.com.br" required="" type="email"/>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-semibold mb-1.5" for="message">Mensagem ou Dúvidas (Opcional)</label>
+<textarea class="w-full p-4 rounded-xl bg-surface-container-lowest text-on-surface placeholder:text-outline outline-none focus:ring-2 focus:ring-primary transition-all font-body-sm text-body-sm shadow-sm resize-none" id="message" placeholder="Conte-nos o que você busca na formação do seu filho..." rows="3"></textarea>
+</div>
+<button class="w-full h-14 rounded-xl bg-secondary-container text-on-secondary-fixed font-label-lg text-label-lg font-bold shadow-md hover:bg-secondary-fixed-dim hover:-translate-y-0.5 transition-all duration-200 flex items-center justify-center gap-2" type="submit">
+<span>Agendar Minha Visita</span>
+<span class="material-symbols-outlined text-[20px]">calendar_today</span>
+</button>
+</form>
+</div>
+<!-- Right: Practical Information & Map Placeholder -->
+<div class="lg:col-span-5 space-y-6">
+<!-- Contact Details Card -->
+<div class="bg-surface p-6 sm:p-8 rounded-2xl shadow-sm space-y-4">
+<h4 class="font-headline-sm text-headline-sm font-bold text-primary mb-2">Informações Práticas</h4>
+<div class="flex items-start gap-3.5">
+<div class="w-10 h-10 rounded-xl bg-surface-container-high text-primary flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[20px]">location_on</span>
+</div>
+<div>
+<p class="font-label-lg text-label-lg font-semibold text-primary">Endereço do Campus</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Av. das Nações Educadoras, 1500 - Jardim Primavera, São Paulo - SP</p>
+</div>
+</div>
+<div class="flex items-start gap-3.5">
+<div class="w-10 h-10 rounded-xl bg-surface-container-high text-primary flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[20px]">call</span>
+</div>
+<div>
+<p class="font-label-lg text-label-lg font-semibold text-primary">Telefone &amp; WhatsApp</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">(11) 3456-7890 | WhatsApp: (11) 98765-4321</p>
+</div>
+</div>
+<div class="flex items-start gap-3.5">
+<div class="w-10 h-10 rounded-xl bg-surface-container-high text-primary flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[20px]">mail</span>
+</div>
+<div>
+<p class="font-label-lg text-label-lg font-semibold text-primary">E-mail Institucional</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">contato@colegiohorizonte.com.br</p>
+</div>
+</div>
+<div class="flex items-start gap-3.5">
+<div class="w-10 h-10 rounded-xl bg-surface-container-high text-primary flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[20px]">schedule</span>
+</div>
+<div>
+<p class="font-label-lg text-label-lg font-semibold text-primary">Horário de Atendimento</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Segunda a Sexta-feira, das 7h às 18h</p>
+</div>
+</div>
+</div>
+<!-- Stylized Interactive Map Card -->
+<div class="bg-surface rounded-2xl overflow-hidden shadow-sm flex flex-col">
+<div class="w-full h-48 bg-cover bg-center relative flex items-center justify-center" data-location="Av. das Nações Educadoras, 1500 - Jardim Primavera, São Paulo - SP" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC5YlkaLj38ZlgdgYB1oLeuwU2Ko9qCA94nPM2K_XSPlu8NXEWdupu_T2uGq4gxd3QshyHk54O-nOdiwzoeBYWXjA8GFhgn7N-DS3WDsegyLr2i54-NgcfrDnLPUtF26QvsnOq1FfSXKxwS9sZQM3zNH55rH6av-Rh0iGua2pJhd1ge9A__hiC7h7r0FiesbIC6cv18Gs9QZvKzwUNrXkMlf2sGW-AZWXr5LcBSDsaXgUNGZgPUqvDFEg')">
+<div class="absolute inset-0 bg-primary/20 backdrop-blur-[1px]"></div>
+<div class="relative z-10 px-4 py-2 rounded-xl bg-surface-container-lowest text-primary shadow-lg flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-container text-[24px]">school</span>
+<span class="font-label-lg text-label-lg font-bold">Campus Colégio Horizonte</span>
+</div>
+</div>
+<div class="p-4 bg-surface flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Fácil acesso com estacionamento interno</span>
+<a class="inline-flex items-center gap-1 text-primary hover:text-primary-container font-label-lg text-label-lg font-semibold transition-colors" href="https://maps.google.com" rel="noopener noreferrer" target="_blank">
+<span>Abrir no Google Maps</span>
+<span class="material-symbols-outlined text-[16px]">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-primary text-on-primary"><div class="max-w-7xl mx-auto px-6 lg:px-12 pt-16 pb-12"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-primary-container"><div class="lg:col-span-4 space-y-4"><div class="flex items-center gap-3"><img alt="Colégio Horizonte Logo" class="h-9 w-auto object-contain brightness-0 invert" src="https://lh3.googleusercontent.com/aida/AEtjO1Vr1IgWe8faGPJyVEuYrLzHnmttp2qIQ1rrCoIi3LRPcsd47Tu-6QbXcZ6a3gq9RtTq309dCMsvJ32snUzwYj4uj7S2KiyV8LyNTi0G4V6hq-AvGXyQAyl46MLfa85wQY792JTnIsbXBtTqlO610MZhcjM8MuaT3r_3IcxrG3b4_TnjiAYtuThKUrIUbx9Y0hJfp0xMbMXJ5FmdOmXw3beqS-FeabdEYSFLEiXJTtmYqBvndtmNouTinGFl"/><span class="font-headline-md text-headline-md font-bold tracking-tight text-on-primary">Colégio Horizonte</span></div><p class="font-body-md text-body-md text-primary-fixed-dim max-w-sm">Formação integral com excelência acadêmica, inovação pedagógica e acolhimento humano desde as primeiras descobertas até os grandes vestibulares.</p><div class="flex items-center gap-3 pt-2"><a aria-label="Instagram" class="w-10 h-10 rounded-full bg-primary-container text-on-primary hover:bg-secondary-container hover:text-on-secondary-fixed flex items-center justify-center transition-all" href="#"><span class="material-symbols-outlined text-[20px]">photo_camera</span></a><a aria-label="Facebook" class="w-10 h-10 rounded-full bg-primary-container text-on-primary hover:bg-secondary-container hover:text-on-secondary-fixed flex items-center justify-center transition-all" href="#"><span class="material-symbols-outlined text-[20px]">public</span></a><a aria-label="YouTube" class="w-10 h-10 rounded-full bg-primary-container text-on-primary hover:bg-secondary-container hover:text-on-secondary-fixed flex items-center justify-center transition-all" href="#"><span class="material-symbols-outlined text-[20px]">play_circle</span></a><a aria-label="LinkedIn" class="w-10 h-10 rounded-full bg-primary-container text-on-primary hover:bg-secondary-container hover:text-on-secondary-fixed flex items-center justify-center transition-all" href="#"><span class="material-symbols-outlined text-[20px]">hub</span></a></div></div><div class="lg:col-span-2 space-y-3"><h3 class="font-headline-sm text-headline-sm text-secondary-fixed font-semibold">Navegação</h3><ul class="space-y-2 font-body-sm text-body-sm text-primary-fixed-dim"><li><a class="hover:text-on-primary transition-colors" href="#inicio">Início</a></li><li><a class="hover:text-on-primary transition-colors" href="#sobre">Sobre a Instituição</a></li><li><a class="hover:text-on-primary transition-colors" href="#segmentos">Segmentos de Ensino</a></li><li><a class="hover:text-on-primary transition-colors" href="#numeros">Resultados &amp; Números</a></li><li><a class="hover:text-on-primary transition-colors" href="#noticias">Notícias &amp; Eventos</a></li><li><a class="hover:text-on-primary transition-colors" href="#contato">Fale Conosco</a></li></ul></div><div class="lg:col-span-3 space-y-3"><h3 class="font-headline-sm text-headline-sm text-secondary-fixed font-semibold">Unidades &amp; Contato</h3><div class="space-y-3 font-body-sm text-body-sm text-primary-fixed-dim"><div class="flex items-start gap-2"><span class="material-symbols-outlined text-secondary-container text-[20px] shrink-0 mt-0.5">location_on</span><span>Av. das Nações Educadoras, 1200 - Jardins, São Paulo - SP</span></div><div class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary-container text-[20px] shrink-0">call</span><span>(11) 3450-8000 / 0800 720 4000</span></div><div class="flex items-center gap-2"><span class="material-symbols-outlined text-secondary-container text-[20px] shrink-0">mail</span><span>atendimento@colegiohorizonte.com.br</span></div></div></div><div class="lg:col-span-3 space-y-4"><h3 class="font-headline-sm text-headline-sm text-secondary-fixed font-semibold">Selos de Reconhecimento</h3><div class="grid grid-cols-2 gap-3"><div class="p-3 rounded-xl bg-primary-container/60 border border-primary-container flex flex-col items-center justify-center text-center"><span class="material-symbols-outlined text-secondary-container text-[28px] mb-1">military_tech</span><span class="font-label-md text-label-md font-semibold text-on-primary">Top 1% ENEM</span><span class="text-[11px] text-primary-fixed-dim">Liderança Estadual</span></div><div class="p-3 rounded-xl bg-primary-container/60 border border-primary-container flex flex-col items-center justify-center text-center"><span class="material-symbols-outlined text-secondary-container text-[28px] mb-1">workspace_premium</span><span class="font-label-md text-label-md font-semibold text-on-primary">Certificação IB</span><span class="text-[11px] text-primary-fixed-dim">Currículo Global</span></div></div><div class="pt-1"><a class="w-full inline-flex items-center justify-center py-2.5 px-4 rounded-xl bg-secondary-container text-on-secondary-fixed font-label-lg text-label-lg font-bold hover:bg-secondary-fixed-dim transition-colors" href="#matriculas">Quero Matricular Meu Filho</a></div></div></div><div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 font-body-sm text-body-sm text-primary-fixed-dim text-center sm:text-left"><p>© 2025 Colégio Horizonte. Todos os direitos reservados. Educando com afeto e inovação.</p><div class="flex items-center gap-6 font-label-md text-label-md"><a class="hover:text-on-primary transition-colors" href="#privacidade">Privacidade</a><a class="hover:text-on-primary transition-colors" href="#termos">Termos de Uso</a><a class="hover:text-on-primary transition-colors" href="#portal">Portal do Aluno</a></div></div></div></footer></body></html>
